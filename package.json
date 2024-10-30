@@ -1,0 +1,31 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "build": "tsc",
+    "serve": "nodemon  dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "babelrc": "^0.0.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-server": "^14.1.1",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "nodemon": "^3.1.7"
+  }
+}
